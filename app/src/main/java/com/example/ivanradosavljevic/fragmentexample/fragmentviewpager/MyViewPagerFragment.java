@@ -43,6 +43,7 @@ public class MyViewPagerFragment extends Fragment {
         ImageView iv = (ImageView) rootView.findViewById(R.id.ivViewPager);
         iv.setImageResource(imageId);
 
+        //output page number
         Toast.makeText(getActivity(), "Page number " + position, Toast.LENGTH_SHORT).show();
 
         return rootView;
