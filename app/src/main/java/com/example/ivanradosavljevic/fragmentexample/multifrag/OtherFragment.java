@@ -13,6 +13,10 @@ import com.example.ivanradosavljevic.fragmentexample.R;
  */
 public class OtherFragment extends Fragment {
 
+    /*
+    This fragment is implemented in second frame in activity_multi_frag. Id is multicontainer.
+     */
+
     public OtherFragment() {
 
     }

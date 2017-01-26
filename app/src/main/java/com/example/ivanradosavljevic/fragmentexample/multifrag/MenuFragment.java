@@ -25,10 +25,12 @@ public class MenuFragment extends Fragment {
     }
 
     @Override
+    //menu_multi is xml layout
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.menu_multi, container, false);
 
         frag = new KoalaFragment();
+        //here we define second frame. Because there can be different images, first time we call add method, next time we call replace
         fragTransaction = getFragmentManager().beginTransaction().add(R.id.multicontainer, frag);
         fragTransaction.commit();
         Button btnKoala = (Button) rootView.findViewById(R.id.btnKoala);

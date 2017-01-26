@@ -16,6 +16,10 @@ import com.example.ivanradosavljevic.fragmentexample.R;
  */
 public class MyViewPagerFragment extends Fragment {
 
+    /*
+    Here we have one fragment, which contains image slider.
+     */
+
     public MyViewPagerFragment() {
 
     }

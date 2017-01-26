@@ -8,7 +8,9 @@ import android.view.View;
 import com.example.ivanradosavljevic.fragmentexample.fragmentviewpager.ViewPagerActivity;
 import com.example.ivanradosavljevic.fragmentexample.multifrag.MultiFragActivity;
 import com.example.ivanradosavljevic.fragmentexample.simplefrag.SimpleFragmentActivity;
-
+/*
+Welcome screen. 
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
